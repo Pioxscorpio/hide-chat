@@ -1,0 +1,11 @@
+{
+  "name": "Hide chats",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Blurs WhatsApp side panel",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
